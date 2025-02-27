@@ -5,6 +5,7 @@ This repository provides an automated environment for development using Django, 
 ### 📦 Installation
 
 Clone the repository and install dependencies:
+
 ```bash
 git clone https://github.com/alexlambertini/django-sass.git
 cd django-sass
@@ -40,10 +41,25 @@ Commit your changes (git commit -m 'My new feature')
 Push to your branch (git push origin my-feature)
 Open a Pull Request 🚀
 
+### ⚙️ Django Static Files Configuration
 
------------------------------------------------------------------------------------------------------------------
+Ensure you have the following settings in your Django settings.py file:
+
+```bash
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+```
+
+---
+
 ### 📌 Português
------------------------------------------------------------------------------------------------------------------
+
+---
 
 ### Ambiente de Desenvolvimento SASS com Django
 
@@ -52,6 +68,7 @@ Este repositório fornece um ambiente automatizado para desenvolvimento com Djan
 ### 📦 Instalação
 
 Clone o repositório e instale as dependências:
+
 ```bash
 git clone https://github.com/alexlambertini/django-sass.git
 cd django-sass
@@ -61,6 +78,7 @@ npm install
 ### 🚀 Uso
 
 Para iniciar o ambiente de desenvolvimento, execute:
+
 ```bash
 npm start
 ```
@@ -78,7 +96,6 @@ concurrently - Executa múltiplos scripts simultaneamente
 sass - Compilador SCSS para CSS
 wait-on - Aguarda o servidor Django antes de iniciar o Browser Sync
 
-
 ### 🛠️ Como contribuir
 
 Fork este repositório
@@ -87,3 +104,14 @@ Commit suas alterações (git commit -m 'Minha nova feature')
 Faça push (git push origin minha-feature)
 Abra um Pull Request 🚀
 
+### ⚙️ Django Static file django
+
+```bash
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR, 'static'),
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+```
