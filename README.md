@@ -1,4 +1,4 @@
-### Ativacao - Development Environment
+### Development Environment SASS with Django
 
 This repository provides an automated environment for development using Django, SCSS, and Browser Sync.
 
@@ -40,9 +40,12 @@ Commit your changes (git commit -m 'My new feature')
 Push to your branch (git push origin my-feature)
 Open a Pull Request 🚀
 
-### 📌 Português
 
-Ativacao - Ambiente de Desenvolvimento
+-----------------------------------------------------------------------------------------------------------------
+### 📌 Português
+-----------------------------------------------------------------------------------------------------------------
+
+### Ambiente de Desenvolvimento SASS com Django
 
 Este repositório fornece um ambiente automatizado para desenvolvimento com Django, SCSS e Browser Sync.
 
