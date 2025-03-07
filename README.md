@@ -55,6 +55,12 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
 
+📌 Browser Sync Integration
+
+```HTML
+<script async src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
+```
+
 ---
 
 ### 📌 Português
@@ -114,4 +120,10 @@ os.path.join(BASE_DIR, 'static'),
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+```
+
+📌 Browser Sync Intagração
+
+```HTML
+<script async src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
 ```
